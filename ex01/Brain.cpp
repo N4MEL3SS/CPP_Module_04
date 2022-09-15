@@ -20,7 +20,8 @@ Brain::Brain(const Brain &other)
 		this->ideas[i] = ref_ideas[i] + " and " + std::to_string(i + 1) + \
 			" hedgehog in the fog";
 
-	std::cout << "A brain has been copy constructed and stole the other's ideas\n";
+	std::cout << "A brain has been copy constructed and stole the other's " \
+		"ideas" << std::endl;
 }
 
 Brain::~Brain()
