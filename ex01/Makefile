@@ -1,4 +1,4 @@
-NAME = ex00
+NAME = ex01
 CXX = clang++
 INCLUDES = -I $(HEAD_DIR)
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
@@ -8,6 +8,7 @@ RM = rm -rf
 #	HEADER
 HEAD_DIR = ./
 HEADS =	Animal.hpp			\
+		Brain.hpp			\
 		Cat.hpp				\
 		Dog.hpp				\
 		WrongAnimal.hpp		\
@@ -16,6 +17,7 @@ HEADS =	Animal.hpp			\
 #	SOURCE
 SRCS_DIR = ./
 SRCS =	Animal.cpp			\
+		Brain.cpp			\
 		Cat.cpp				\
 		Dog.cpp				\
 		WrongAnimal.cpp		\
