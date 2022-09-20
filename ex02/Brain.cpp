@@ -8,7 +8,7 @@ Brain::Brain()
 		this->ideas[i] = "Do Androids Dream of Electric Sheep?";
 
 	std::cout << "A brain has been constructed and filled with ideas" <<
-	std::endl;
+			  std::endl;
 }
 
 Brain::Brain(const Brain &other)
