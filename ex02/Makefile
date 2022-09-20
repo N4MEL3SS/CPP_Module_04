@@ -7,14 +7,14 @@ RM = rm -rf
 
 #	HEADER
 HEAD_DIR = ./
-HEADS =	Animal.hpp			\
+HEADS =	AAnimal.hpp			\
 		Brain.hpp			\
 		Cat.hpp				\
 		Dog.hpp
 
 #	SOURCE
 SRCS_DIR = ./
-SRCS =	Animal.cpp			\
+SRCS =	AAnimal.cpp			\
 		Brain.cpp			\
 		Cat.cpp				\
 		Dog.cpp				\
